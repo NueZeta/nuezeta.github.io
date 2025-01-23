@@ -59,12 +59,12 @@ figure {
 
 ::-moz-selection {
   color: #fff;
-  background: #1500da;
+  background: #da1212;
 }
 
 ::selection {
   color: #fff;
-  background: #1500da;
+  background: #da1212;
 }
 
 #fh5co-page {
