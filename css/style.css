@@ -54,7 +54,7 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #1500ba;
+  background: #da1212;
 }
 
 ::-moz-selection {
@@ -64,7 +64,7 @@ figure {
 
 ::selection {
   color: #fff;
-  background: #da1212;
+  background: #1500da;
 }
 
 #fh5co-page {
