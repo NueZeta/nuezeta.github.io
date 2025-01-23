@@ -25,13 +25,13 @@ body {
 }
 
 a {
-  color: #da1212;
+  color: #1500da;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #da1212;
+  color: #1500da;
   outline: none;
 }
 
@@ -144,7 +144,7 @@ figure {
   bottom: 7px;
   left: 10px;
   right: 10px;
-  background-color: #1512da;
+  background-color: #1500da;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
