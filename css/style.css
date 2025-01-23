@@ -836,21 +836,21 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .btn-primary {
-  background: #da1212;
+  background: #1500da;
   color: #fff;
-  border: 2px solid #da1212;
+  border: 2px solid #1500da;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ec1919 !important;
-  border-color: #ec1919 !important;
+  background: #1500da !important;
+  border-color: #1500da !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #da1212;
-  border: 2px solid #da1212;
+  color: #1500da;
+  border: 2px solid #1500da;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #da1212;
+  background: #1500da;
   color: #fff;
 }
 
@@ -960,7 +960,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #da1212;
+  border-color: #1500da;
 }
 
 #message {
