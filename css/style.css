@@ -54,17 +54,17 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #da1212;
+  background: #1500da;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #da1212;
+  background: #1500da;
 }
 
 ::selection {
   color: #fff;
-  background: #da1212;
+  background: #1500da;
 }
 
 #fh5co-page {
