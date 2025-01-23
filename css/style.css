@@ -216,7 +216,7 @@ figure {
 #fh5co-aside .fh5co-footer ul li a:hover, #fh5co-aside .fh5co-footer ul li a:active, #fh5co-aside .fh5co-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #da1212;
+  color: #1500da;
 }
 
 #fh5co-main {
@@ -320,7 +320,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   color: #000;
 }
 .work-pagination a:hover {
-  color: #da1212;
+  color: #1500da;
   text-decoration: none;
 }
 @media screen and (max-width: 480px) {
@@ -335,7 +335,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-testimonial {
   padding: 3em 0;
-  background: #da1212;
+  background: #1500da;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial {
@@ -413,7 +413,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-heading-colored {
-  color: #da1212;
+  color: #1500da;
 }
 
 .fh5co-cards {
@@ -472,7 +472,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-counter .fh5co-number {
   font-size: 100px;
-  color: #da1212;
+  color: #1500da;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -542,12 +542,12 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   }
 }
 .fh5co-social li a:hover {
-  color: #da1212;
+  color: #1500da;
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
   text-decoration: none;
-  color: #da1212;
+  color: #1500da;
 }
 
 #map {
@@ -577,7 +577,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin-top: 5px;
 }
 .fh5co-feature .fh5co-icon i {
-  color: #da1212;
+  color: #1500da;
   font-size: 70px;
 }
 @media screen and (max-width: 1200px) {
@@ -586,7 +586,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   }
 }
 .fh5co-feature.fh5co-feature-sm .fh5co-icon i {
-  color: #da1212;
+  color: #1500da;
   font-size: 28px;
 }
 @media screen and (max-width: 1200px) {
@@ -797,7 +797,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 3px solid #da1212;
+  border: 3px solid #1500da;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
