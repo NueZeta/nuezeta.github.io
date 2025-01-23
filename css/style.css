@@ -144,7 +144,7 @@ figure {
   bottom: 7px;
   left: 10px;
   right: 10px;
-  background-color: #da1212;
+  background-color: #0400ff;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -170,7 +170,7 @@ figure {
   transform: scaleX(1);
 }
 #fh5co-aside #fh5co-main-menu ul li.fh5co-active a {
-  color: rgb(17, 0, 255);
+  color: black;
 }
 #fh5co-aside #fh5co-main-menu ul li.fh5co-active a:after {
   visibility: visible;
@@ -216,7 +216,7 @@ figure {
 #fh5co-aside .fh5co-footer ul li a:hover, #fh5co-aside .fh5co-footer ul li a:active, #fh5co-aside .fh5co-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #da1212;
+  color: #0400ff;
 }
 
 #fh5co-main {
