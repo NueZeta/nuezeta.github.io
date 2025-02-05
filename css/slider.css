@@ -1,0 +1,36 @@
+/* 複数画像切り替え---------------------------------------------- */
+.slider-container {
+	position: relative; /* コンテナ内でスライド位置を相対的に設定 */
+	width: 1920px; /* コンテナ幅を100%に */
+	height: 1080px; /* コンテナの高さを固定 */
+	overflow: hidden; /* スライドがコンテナ外に出ないように非表示 */
+}
+
+/*画像の配置*/
+.slideimg {
+	position: absolute; /* 位置を絶対指定で重ねて配置 */
+ 	inset: 0; /*親要素内にフルサイズで配置*/
+	opacity: 0; /* 初期状態で透明に */
+	background-size: contain; /* 画像をスライド全体にカバー */
+	animation: slideAnime 12s infinite; /* 1サイクル15秒を無限ループ */
+}
+
+/* スライド個別設定 */
+.slideimg:nth-of-type(1) { background-image: url('画像パス①'); animation-delay: 0s; }
+.slideimg:nth-of-type(2) { background-image: url('画像パス②'); animation-delay: 3s; }
+.slideimg:nth-of-type(3) { background-image: url('画像パス③'); animation-delay: 6s; }
+.slideimg:nth-of-type(4) { background-image: url('画像パス④'); animation-delay: 9s; }
+
+/*タイミング設定*/
+@keyframes slideAnime {
+	0%, 30%, 100% { opacity: 0; } /* 非表示のタイミング */
+	10%, 20% { opacity: 1; } /* 表示されるタイミング */
+}
+
+.text {
+    position: absolute; /* テキストの位置を絶対指定 */
+    left: 50px; /* 左端からの距離を指定 */
+    top: 100px; /* 上端からの距離を指定 */
+    font-size: 20px; /* フォントサイズを指定 */
+    color: #333; /* フォントカラーを指定 */
+  }
