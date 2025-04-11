@@ -92,46 +92,59 @@
 		<div id="fh5co-main">
 			
 			<div class="fh5co-narrow-content">
-					<h1 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Cutom Hero</h1>
+				<h1 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Cutom Hero</h1>
 				<div class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">					
-					<div style="font-size: 20px; line-height: 23px;">
+					<div class="slider-container">
+						<div class="slideimg" style="background-image: url('images/Custom/Custom_1.png'); width: 100%; height: 100%;"></div>
+						<div class="slideimg" style="background-image: url('images/Custom/Custom_2.png'); width: 100%; height: 100%;"></div>
+						<div class="slideimg" style="background-image: url('images/Custom/Custom_3.png'); width: 100%; height: 100%;"></div>
+						<div class="slideimg" style="background-image: url('images/Custom/Custom_4.png'); width: 100%; height: 100%;"></div>
+					</div>
+						<h3>販売ページ</h3>
+						<a href="https://store.steampowered.com/app/3189100/Custom_Hero/?l=japanese">https://store.steampowered.com/app/3189100/Custom_Hero/?l=japanese</a>
+						<br><br>
+
+						<h2>作品紹介</h2>
+					<p>
+
+						Custom Heroは「プレイヤーのパラメータをストレージでカスタマイズして、敵と戦う」ゲームです。<br>
+						ストレージ内に"チップ"を配置することでキャラクターのステータスが変化したり、可能なアクションが増えます。また"チップ"自体を拡大することで効果が強化されます。"チップ"によるカスタムの自由度の高さと、カスタムを生かした戦闘がこのゲームのポイントです。
+						<br><br>
+						チップについて<br>
+						ストレージ内に"チップ"を配置することでヒーローをカスタマイズすることができます。チップにはいくつか種類があり　アクション(攻撃、回避)、ステータス(HP、速度、攻撃力)、使い切りのアイテムなど　自分だけのカスタムで最強のヒーローを作ろう‼
+						<br><br><br>
+					</p>
+
+						<h2>システム概要</h2>
+					<p>
+						プレイ人数　:　1人<br>
+						対応端末　　:　PC<br>
+						操作方法　　:　Xboxコントローラー、キーボード・マウス<br>
+						<br><br>
+					</p>
+
+						<h2>工夫した点</h2>
+
+						<h3>シーン分割</h3>
 						<p>
-
-							<div class="slider-container">
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_1.jpg'); width: 50%; height: 50%;"></div>
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_2.jpg'); width: 50%; height: 50%;"></div>
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_3.jpg'); width: 50%; height: 50%;"></div>
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_4.jpg'); width: 50%; height: 50%;"></div>
-							  </div>
-
-							  <div style="font-size: 20px; line-height: 25px;">
-									<div class="text" style="top: 600px; left: 1%;">
-										<h2>作品紹介</h2>
-										
-										Custom Heroは「プレイヤーのパラメータをストレージでカスタマイズして、敵と戦う」ゲームです。<br>
-										ストレージ内に"チップ"を配置することでキャラクターのステータスが変化したり、可能なアクションが増えます。また"チップ"自体を拡大することで効果が強化されます。"チップ"によるカスタムの自由度の高さと、カスタムを生かした戦闘がこのゲームのポイントです。
-										<br><br>
-										チップについて<br>
-										ストレージ内に"チップ"を配置することでヒーローをカスタマイズすることができます。チップにはいくつか種類があり　アクション(攻撃、回避)、ステータス(HP、速度、攻撃力)、使い切りのアイテムなど　自分だけのカスタムで最強のヒーローを作ろう‼
-										<br><br><br>
-										
-										<h2>システム概要</h2>
-										プレイ人数　:　1人<br>
-										対応端末　　:　PC<br>
-										操作方法　　:　Xboxコントローラー、キーボード・マウス<br>
-										<br><br><br><br>
-									</div>
-									
-									<div class="textColor" style="left: 1%;">
-										<!--<h2>制作に当たって生じた問題点と解決方法</h2>-->								  										
-									</div>
-								</div>
+							マネージャークラスやUI等を持つシーンと、ゲームシーンの二つに分離することにより、ワークスペースのコンフリクトを防ぎ、各自が作業しやすい環境を整えることや、<br>
+							シーン遷移時の処理軽減を実現しました。<br><br>
+							<img src="images/Custom/Scene1.png">
+							<img src="images/Custom/Scene2.png"><br><br>
+							<br><br>
 						</p>
-					</div>					
-				</div>		
-			</div>
-		</div>
-	</div>
+
+						<h3>メインプログラマとして</h3>
+						<p>
+							コーディングルールとしてMVPデザインパターンを採用し、メンバ全体でコードに一貫性を持たせるほか、コード全体の可読性やエラーの原因の特定に役立ちました。<br>
+							ほかには、Doxygenでドキュメントを作成することを考慮したコメントルールを設け、メンバの経過状況の共有や、メンバー間での質問を減らすことができました。<br>
+							<br><br>
+						</p>
+				</div>
+			</div>									
+		</div>					
+	</div>		
+
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
