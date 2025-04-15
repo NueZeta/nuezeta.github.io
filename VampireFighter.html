@@ -95,17 +95,54 @@
 					<h1 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Vampire Fighter</h1>
 				<div class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">					
 					<div style="font-size: 20px; line-height: 23px;">
+
+						<div class="slider-container">
+							<div class="slideimg" style="background-image: url('images/VampireFighter/VampireFighter.png'); width: 100%; height: 100%;"></div>
+							<div class="slideimg" style="background-image: url('images/VampireFighter/VampireFighter.png'); width: 100%; height: 100%;"></div>
+							<div class="slideimg" style="background-image: url('images/VampireFighter/VampireFighter.png'); width: 100%; height: 100%;"></div>
+							<div class="slideimg" style="background-image: url('images/VampireFighter/VampireFighter.png'); width: 100%; height: 100%;"></div>
+						</div>
+						<br>
+
+						<h2>作品紹介</h2>
+                        <p>
+                            ・DXLibと自作ライブラリを用いて作成した格闘ゲーム<br>
+                            ・一部アニメーション自作<br>
+                            ・モダン操作とクラシック操作を設定可能<br>
+                            ・攻撃、ガードによってたまるゲージを使用した超必殺技<br>
+                            <br>
+                        </p>
+
+						<h2>システム概要</h2>
 						<p>
-
-
-							<div class="slider-container">
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_1.jpg'); width: 50%; height: 50%;"></div>
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_2.jpg'); width: 50%; height: 50%;"></div>
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_3.jpg'); width: 50%; height: 50%;"></div>
-								<div class="slideimg" style="background-image: url('images/Custom/Custom_4.jpg'); width: 50%; height: 50%;"></div>
-							  </div>
-
+							ジャンル　　:　2D格闘<br>
+							プレイ人数　:　2人<br>
+							対応端末　　:　PC<br>
+							操作方法　　:　アーケードコントローラー、Xboxコントローラー、キーボード
+							<br><br>
 						</p>
+
+						<h2>工夫した点</h2>
+
+						<h3>キャラクターのフラグ管理</h3>
+                        <p>
+                            フラグ管理にビット演算を用いることでプロジェクト全体の効率化を図りました。<br>
+							
+							<br>1つ目の利点は<strong>メモリ効率の向上</strong>です。<br>
+                            仮に32個のbool値を持つ場合、通常は1byteのbool型を32個持つ必要がありますが、ビット演算を用いる場合はuint32_t型を一つだけでよくなるため、およそ8/1の圧縮になります。<br>
+							
+							<br>2つ目の利点は<strong>複数フラグの同時チェックの効率化</strong>です。<br>
+                            複数フラグの同時チェックもビット演算を用いることで、1回の演算で済ませることができます。<br>
+                            これにより、コードの可読性の向上だけでなく、一度の計算で済むため、処理速度の向上も望めます。<br>
+                            <br>
+                        </p>
+
+						<h3>項目2</h3>
+						<p>
+							内容<br>
+							<br>
+						</p>
+
 					</div>					
 				</div>		
 			</div>
