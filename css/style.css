@@ -287,6 +287,14 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.work-item a video {
+  margin-bottom: 10px;
+  float: left;
+  border: 10px solid transparent;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
 .work-item a h3 {
   font-size: 20px;
   color: #000;
@@ -296,6 +304,14 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   font-size: 14px;
   color: #cccccc;
   margin-bottom: 0;
+}
+.work-item a strong {
+    line-height: 1;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: 450; /* ƒtƒHƒ“ƒg‚ð‘¾Žš‚É */
+    color: #1500da;
+    margin-bottom: 0;
 }
 .work-item a:hover, .work-item a:active, .work-item a:focus {
   text-decoration: none;
