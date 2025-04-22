@@ -280,17 +280,17 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   text-align: center;
 }
 .work-item a img {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   float: left;
-  border: 10px solid transparent;
+  border: 1px solid transparent;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .work-item a video {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   float: left;
-  border: 10px solid transparent;
+  border: 1px solid transparent;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -317,6 +317,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   text-decoration: none;
 }
 .work-item a:hover img, .work-item a:active img, .work-item a:focus img {
+  border: 10px solid #000;
+}
+.work-item a:hover video, .work-item a:active video, .work-item a:focus video {
   border: 10px solid #000;
 }
 
