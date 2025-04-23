@@ -52,4 +52,5 @@ strong {
     margin-top: 4px;
     margin-bottom: 4px;
     font-weight: 450; /* フォントを太字に */
+    color: #000000; /* フォントカラーを指定 */
 }
